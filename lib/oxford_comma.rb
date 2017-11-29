@@ -4,8 +4,7 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join(" and ")
   else array.length > 2
-    long_array =  array.join(",")
-    long_array << array.join(" and ")
+    long_array =  array.join(",") << array.join(" and ")
 
 
   end
